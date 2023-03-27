@@ -11,7 +11,7 @@
 
 ### Microsoft Visual Studio
 1. Open project solution `sphere-raycasting.sln`
-2. Add `lib/freeglut.lib` as additional dependency:
+2. Add `lib/freeglut.lib` as an additional dependency:
     - Open `Project->Properties`;
     - Open `Linker->Additional Library Directories` and add `lib`;
     - Open `Linker->Input->Additional Dependencies` and add `freeglut.lib`.
